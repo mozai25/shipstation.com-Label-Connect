@@ -70,30 +70,6 @@ class ShipStation
 
     public $testLabel = false;
 
-    //response
-    public $shipmentId;
-    public $orderId;
-    public $userId;
-    public $customerEmail;
-    public $orderNumber;
-    public $createDate;
-    public $shipmentCost;
-    public $insuranceCost;
-    public $trackingNumber;
-    public $isReturnLabel;
-    public $batchNumber;
-    public $warehouseId;
-    public $voided;
-    public $voidDate;
-    public $marketplaceNotified;
-    public $notifyErrorMessage;
-    public $dimensions;
-    public $insuranceOptions;
-    public $advancedOptions;
-    public $shipmentItems;
-    public $labelData;
-    public $formData;
-
     private $Url = "https://ssapi.shipstation.com/shipments/createlabel";
     private $UrlAllServices = "https://ssapi.shipstation.com/carriers/getcarrier?carrierCode=";
     private $UrlServices = "https://ssapi.shipstation.com/carriers/listservices?carrierCode=";
